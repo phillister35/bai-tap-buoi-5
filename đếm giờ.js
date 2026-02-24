@@ -1,12 +1,11 @@
-let time = 10;
-
+let time = 20;
+let i = time/2
 while (time > 0) {
-  if (time === 5) {
-    console.log("đã quá nửa thời gian");
+  if (time === i) {
+    console.log("Đã quá nửa thời gian");
   } else {
-    console.log("còn lại " + time + " giây");
+    console.log(`Còn lại ${time} giây`);
   }
   time--;
 }
-
-console.log("hết giờ");
+console.log("Đã hết giờ ");
